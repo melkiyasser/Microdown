@@ -1,12 +1,12 @@
 Class {
-	#name : 'FileParser',
+	#name : 'FromFileTests',
 	#superclass : 'TestCase',
 	#category : 'microdown-fileParser',
 	#package : 'microdown-fileParser'
 }
 
 { #category : 'as yet unclassified' }
-FileParser >> testCreatingFileAndParsingtheContent [
+FromFileTests >> testCreatingFileAndParsingtheContent [
 
 	| file root |
 	file := (FileSystem workingDirectory / 'myFile.txt') asFileReference.
